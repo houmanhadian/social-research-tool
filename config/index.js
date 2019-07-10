@@ -4,7 +4,6 @@ module.exports = {
   HOST: process.env.HOST || "localhost",
   PROTOCOL: "http",
   UIPORT:"8195",
-  //"houmanproject": {email:"your@email.com",sessionid:undefined,csrftoken:undefined}
   users: {},
   sessionid: undefined,
   csrftoken:undefined,
@@ -41,7 +40,7 @@ module.exports = {
     // 'iran_tourism.info'
   ],
   default_form_data: {
-    username: "emg110",
+    username: "HoumanProject",
     tag: "branding",
     location: "faro",
     query: "university algarve",
